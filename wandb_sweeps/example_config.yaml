@@ -1,0 +1,43 @@
+wandb_version: 1
+epoch:
+  value: 0
+n_epochs:
+  value: 100
+fold:
+  value: 1
+batchSize:
+  value: 64
+lr:
+  value: 0.01193
+lr_scheduler:
+  value: plateau
+weightdecay:
+  value: 0.01052
+lamb0:
+  value: 1
+lamb1:
+  value: 0
+lamb2:
+  value: 0
+lamb3:
+  value: 0.1
+lamb4:
+  value: 0
+lamb5:
+  value: 0
+layer:
+  value: 2
+ratio:
+  value: 0.50
+optim:
+  value: Adam
+n_layers:
+  value: ["32,32"]
+n_fc_layers:
+  value: ["512"]
+n_clustered_communities:
+  value: 7
+early_stop_steps:
+  value: 24
+reg:
+  value: 0.01
